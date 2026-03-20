@@ -1,0 +1,17 @@
+{
+  "author": "Nat",
+  "github_id": "nat-params",
+  "name": "MegaMLP 12x240 Non-Record Smoke",
+  "blurb": "Non-record MLX smoke experiment for the megamlp_12x240 candidate. The measured run reached final_int8_zlib_roundtrip_exact val_bpb:2.93614063. The ~1.17 GPU figure is still a projection, not a measured result.",
+  "date": "2026-03-20T00:00:00Z",
+  "track": "non-record-16mb",
+  "val_loss": 4.96590042,
+  "val_bpb": 2.93614063,
+  "pre_quant_val_loss": 4.9664,
+  "pre_quant_val_bpb": 2.9365,
+  "step_stop": 20,
+  "wallclock_seconds": 16.608,
+  "bytes_total": 9684862,
+  "bytes_model_int8_zlib": 9684862,
+  "bytes_code": 0
+}

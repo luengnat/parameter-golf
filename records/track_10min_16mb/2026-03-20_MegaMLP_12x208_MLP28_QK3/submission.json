@@ -1,0 +1,11 @@
+{
+  "author": "Nat",
+  "github_id": "nat",
+  "name": "MegaMLP_12x208_MLP28_QK3",
+  "blurb": "12×208 dimension, 4×2 GQA heads, 28× MLP expansion with QK gain 3.0. ULTRA massive MLP expansion strategy validated through 80+ MLX smoke experiments. Expected val_bpb ~1.15 (0.074 improvement over baseline). MLX verification: 2.883 val_bpb (range 2.882-2.886 across 7+ runs). Architecture prioritizes feed-forward capacity over attention width based on empirical discovery that most transformer computation happens in MLP layers.",
+  "date": "2026-03-20T00:00:00Z",
+  "val_loss": null,
+  "val_bpb": null,
+  "bytes_total": null,
+  "bytes_code": null
+}
